@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.crio.warmup",
+    "module": "annual-return",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annual-return-1.0.0.jar",
+          "url": "annual-return-1.0.0.jar",
+          "size": 18998,
+          "sha512": "7f8a3633d969bdade104e2fdf91bfede4e5a986cac6ec50da657fb3c6328ecb4ae072f470ce62537b70fe97efc15b305db9513ad499cd4f7adfb6368f2050456",
+          "sha256": "70c0d0a6a1cc15de23fbaa09ef485d92713040a4ded79573798930be223a3b1e",
+          "sha1": "fce5b8f424f936e60934ec9d6a93c834a04bbbf7",
+          "md5": "0830d027aeebe620bed6c73d736d956e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.18"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-jul",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.28"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annual-return-1.0.0.jar",
+          "url": "annual-return-1.0.0.jar",
+          "size": 18998,
+          "sha512": "7f8a3633d969bdade104e2fdf91bfede4e5a986cac6ec50da657fb3c6328ecb4ae072f470ce62537b70fe97efc15b305db9513ad499cd4f7adfb6368f2050456",
+          "sha256": "70c0d0a6a1cc15de23fbaa09ef485d92713040a4ded79573798930be223a3b1e",
+          "sha1": "fce5b8f424f936e60934ec9d6a93c834a04bbbf7",
+          "md5": "0830d027aeebe620bed6c73d736d956e"
+        }
+      ]
+    }
+  ]
+}
